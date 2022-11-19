@@ -64,11 +64,11 @@ const Slider = () =>{
     return(
         <div id="slider">
             <ul id="slideWrap">
-                <li><img src={require("../images/avtar.png")}alt=""></img></li>
-                <li><img src={require("../images/joh.jpg")}alt=""></img></li>
-                <li><img src={require("../images/open.jpg")}alt=""></img></li>
-                <li><img src={require("../images/ant-man.png")} alt=""></img></li>
-                <li><img src={require("../images/spd.jpg")} alt=""></img></li>
+                <li><img src="https://res.cloudinary.com/digpxlioq/image/upload/v1668844098/black%20adam/sliding%20posters%20idk%20bro/avtar_yq4mp7_ehnbaf.png" alt=""></img></li>
+                <li><img src="https://res.cloudinary.com/digpxlioq/image/upload/v1668844099/black%20adam/sliding%20posters%20idk%20bro/joh_ky6nav_wmglnt.jpg" alt=""></img></li>
+                <li><img src="https://res.cloudinary.com/digpxlioq/image/upload/v1668844099/black%20adam/sliding%20posters%20idk%20bro/ant-man_klrigp_ff9beu.png" alt=""></img></li>
+                <li><img src="https://res.cloudinary.com/digpxlioq/image/upload/v1668844098/black%20adam/sliding%20posters%20idk%20bro/open_shdnz2_i3v8mz.jpg" alt=""></img></li>
+                <li><img src="https://res.cloudinary.com/digpxlioq/image/upload/v1668844098/black%20adam/sliding%20posters%20idk%20bro/spd_rtbaxe_gfseqv.jpg" alt=""></img></li>
               </ul>
               <a id="prev" href="#">&#8810;</a>
               <a id="next" href="#">&#8811;</a>
