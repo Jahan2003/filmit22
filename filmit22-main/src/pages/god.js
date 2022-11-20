@@ -27,19 +27,19 @@ const God=()=>{
           <div class="tit">Top Cast</div>
           <div class="wrap">
               <div class="im">
-                  <img src="dwn.jfif" alt="" ></img>
+                  <img src="https://res.cloudinary.com/digpxlioq/image/upload/v1668844012/black%20adam/godfather/bra_d3uvsu_fqftws.jpg" alt="" ></img>
                   <h4>Marlon Brando</h4>
             </div>
             <div class="im">
-              <img src="superman.jfif" alt="" ></img>
+              <img src="https://res.cloudinary.com/digpxlioq/image/upload/v1668844012/black%20adam/godfather/jam_mlm8ee_nno9k2.jpg" alt="" ></img>
               <h4>James Caan</h4>
         </div>
         <div class="im">
-          <img src="noah.jfif" alt="" ></img>
+          <img src="https://res.cloudinary.com/digpxlioq/image/upload/v1668844012/black%20adam/godfather/du_f8logi_ejbd20.jpg" alt="" ></img>
           <h4>Robert Duvall</h4>
       </div>
       <div class="im">
-        <img src="sara.jfif" alt="" ></img>
+        <img src="https://res.cloudinary.com/digpxlioq/image/upload/v1668844012/black%20adam/godfather/al_gt2vu2_fqzqs1.jpg" alt="" ></img>
         <h4>Al Pacino</h4>
     </div>
     </div>

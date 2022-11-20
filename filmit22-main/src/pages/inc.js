@@ -11,7 +11,7 @@ const Inc=()=>{
  </div>
 
  <video width="900" height="450" controls autoplay muted>
-    <source src="../website/Black Adam – Official Trailer 1.mp4" type="video/mp4"></source>
+    <source src="https://res.cloudinary.com/digpxlioq/video/upload/v1668938125/vid/Y2Mate.is_-_Inception_2010_Official_Trailer_1_-_Christopher_Nolan_Movie_HD-YoHD9XEInc0-720p-1659042005977_pqcxmz.mp4" type="video/mp4"></source>
   </video> 
   <div class="syno">
     <div class="syn">
@@ -27,19 +27,19 @@ const Inc=()=>{
         <div class="tit">Top Cast</div>
         <div class="wrap">
             <div class="im">
-                <img src="dwn.jfif" alt="" ></img>
+                <img src="https://res.cloudinary.com/digpxlioq/image/upload/v1668843983/black%20adam/inception/leo_fa4irx_npggug.jpg" alt="" ></img>
                 <h4>Leonardo DiCaprio</h4>
           </div>
           <div class="im">
-            <img src="superman.jfif" alt="" ></img>
+            <img src="https://res.cloudinary.com/digpxlioq/image/upload/v1668843983/black%20adam/inception/jo_smscqu_tcpzju.jpg" alt="" ></img>
             <h4>Joseph Gordon-Levitt</h4>
       </div>
       <div class="im">
-        <img src="noah.jfif" alt="" ></img>
+        <img src="https://res.cloudinary.com/digpxlioq/image/upload/v1668843983/black%20adam/inception/to_mtoh3g_twvnye.jpg" alt="" ></img>
         <h4>Tom Hardy</h4>
     </div>
     <div class="im">
-      <img src="sara.jfif" alt="" ></img>
+      <img src="https://res.cloudinary.com/digpxlioq/image/upload/v1668843983/black%20adam/inception/mur_yxv3j7_kjtbxe.jpg" alt="" ></img>
       <h4>Cillian Murphy</h4>
   </div>
   </div>

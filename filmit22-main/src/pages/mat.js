@@ -17,7 +17,7 @@ const Mat=()=>{
    </div>
   
    <video width="900" height="450" controls autoplay muted>
-      <source src="../website/Black Adam – Official Trailer 1.mp4" type="video/mp4"></source>
+      <source src="https://res.cloudinary.com/digpxlioq/video/upload/v1668938130/vid/Y2Mate.is_-_Matrix_Trailer_HD_1999_-m8e-FF8MsqU-720p-1654805533083_xa9voz.mp4" type="video/mp4"></source>
     </video> 
     <div class="syno">
       <div class="syn">
@@ -33,19 +33,19 @@ const Mat=()=>{
           <div class="tit">Top Cast</div>
           <div class="wrap">
               <div class="im">
-                  <img src="dwn.jfif" alt="" ></img>
+                  <img src="https://res.cloudinary.com/digpxlioq/image/upload/v1668843993/black%20adam/matrix/kea_aaap8g_phviyz.jpg" alt="" ></img>
                   <h4>Keanu Reeves</h4>
             </div>
             <div class="im">
-              <img src="superman.jfif" alt="" ></img>
+              <img src="https://res.cloudinary.com/digpxlioq/image/upload/v1668843993/black%20adam/matrix/lau_y8jbfp_vfyt2d.jpg" alt="" ></img>
               <h4>Laurence Fishburne</h4>
         </div>
         <div class="im">
-          <img src="noah.jfif" alt="" ></img>
+          <img src="https://res.cloudinary.com/digpxlioq/image/upload/v1668843993/black%20adam/matrix/car_jtmhrr_zvq4if.jpg" alt="" ></img>
           <h4>Carrie-Anne Moss</h4>
       </div>
       <div class="im">
-        <img src="sara.jfif" alt="" ></img>
+        <img src="https://res.cloudinary.com/digpxlioq/image/upload/v1668843993/black%20adam/matrix/hug_p6ipnu_zcgcgd.jpg" alt="" ></img>
         <h4>Hugo Weaving</h4>
     </div>
     </div>

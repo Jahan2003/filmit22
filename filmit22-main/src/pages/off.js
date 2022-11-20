@@ -27,19 +27,19 @@ const Off=()=>{
           <div class="tit">Top Cast</div>
           <div class="wrap">
               <div class="im">
-                  <img src="dwn.jfif" alt="" ></img>
+                  <img src="https://res.cloudinary.com/digpxlioq/image/upload/v1668844006/black%20adam/office/ste_vadpuh_qishct.jpg" alt="" ></img>
                   <h4>Steve Carell</h4>
             </div>
             <div class="im">
-              <img src="superman.jfif" alt="" ></img>
+              <img src="https://res.cloudinary.com/digpxlioq/image/upload/v1668844006/black%20adam/office/jen_p8ipue_weuxwq.jpg" alt="" ></img>
               <h4>Jenna Fischer</h4>
         </div>
         <div class="im">
-          <img src="noah.jfif" alt="" ></img>
+          <img src="https://res.cloudinary.com/digpxlioq/image/upload/v1668844006/black%20adam/office/joh_rurnbc_k1o5ze.jpg" alt="" ></img>
           <h4>John Krasinski</h4>
       </div>
       <div class="im">
-        <img src="sara.jfif" alt="" ></img>
+        <img src="https://res.cloudinary.com/digpxlioq/image/upload/v1668844006/black%20adam/office/rain_n8lx9g_dfsmcd.jpg" alt="" ></img>
         <h4>Rainn Wilson</h4>
     </div>
     </div>

@@ -11,7 +11,7 @@ const Fc=()=>{
      </div>
     
      <video width="900" height="450" controls autoplay muted>
-        <source src="../website/Black Adam – Official Trailer 1.mp4" type="video/mp4"></source>
+        <source src="https://res.cloudinary.com/digpxlioq/video/upload/v1668938133/vid/Y2Mate.is_-_Fight_Club_1999_Trailer_1_Movieclips_Classic_Trailers-qtRKdVHc-cE-1080p-1654901447677_zcbihh.mp4" type="video/mp4"></source>
       </video> 
       <div class="syno">
         <div class="syn">
@@ -27,19 +27,19 @@ const Fc=()=>{
             <div class="tit">Top Cast</div>
             <div class="wrap">
                 <div class="im">
-                    <img src="dwn.jfif" alt="" ></img>
+                    <img src="https://res.cloudinary.com/digpxlioq/image/upload/v1668843957/black%20adam/fightclub/pitt_vxhe6f_jmjecy.jpg" alt="" ></img>
                     <h4>Brad Pitt</h4>
               </div>
               <div class="im">
-                <img src="superman.jfif" alt="" ></img>
+                <img src="https://res.cloudinary.com/digpxlioq/image/upload/v1668843957/black%20adam/fightclub/met_joizkz_oxv2cc.jpg" alt="" ></img>
                 <h4>Michael Lee Aday</h4>
           </div>
           <div class="im">
-            <img src="noah.jfif" alt="" ></img>
+            <img src="https://res.cloudinary.com/digpxlioq/image/upload/v1668843958/black%20adam/fightclub/ed_sm1qkn_o1dqkz.jpg" alt="" ></img>
             <h4>Edward Norton</h4>
         </div>
         <div class="im">
-          <img src="sara.jfif" alt="" ></img>
+          <img src="https://res.cloudinary.com/digpxlioq/image/upload/v1668843958/black%20adam/fightclub/zac_o6blqw_kvou8s.jpg" alt="" ></img>
           <h4>Zach Grenier</h4>
       </div>
       </div>

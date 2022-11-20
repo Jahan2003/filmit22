@@ -11,7 +11,7 @@ const In=()=>{
    </div>
   
    <video width="900" height="450" controls autoplay muted>
-      <source src="../website/Black Adam – Official Trailer 1.mp4" type="video/mp4"></source>
+      <source src="https://res.cloudinary.com/digpxlioq/video/upload/v1668938133/vid/Y2Mate.is_-_Interstellar_-_Trailer_-_Official_Warner_Bros._UK-zSWdZVtXT7E-1080p-1654477563259_vmgl7k.mp4" type="video/mp4"></source>
     </video> 
     <div class="syno">
       <div class="syn">
@@ -29,19 +29,19 @@ const In=()=>{
           <div class="tit">Top Cast</div>
           <div class="wrap">
               <div class="im">
-                  <img src="dwn.jfif" alt="" ></img>
+                  <img src="https://res.cloudinary.com/digpxlioq/image/upload/v1668843968/black%20adam/interstellar/mat_yyqaha_srrvby.jpg" alt="" ></img>
                   <h4>Matthew McConaughey</h4>
             </div>
             <div class="im">
-              <img src="superman.jfif" alt="" ></img>
+              <img src="https://res.cloudinary.com/digpxlioq/image/upload/v1668843968/black%20adam/interstellar/ann_ttnhsx_h56j2t.jpg" alt="" ></img>
               <h4>Anne Hathaway</h4>
         </div>
         <div class="im">
-          <img src="noah.jfif" alt="" ></img>
+          <img src="https://res.cloudinary.com/digpxlioq/image/upload/v1668843968/black%20adam/interstellar/tim_hj0hqi_wfy0wy.jpg" alt="" ></img>
           <h4>Timothée Chalamet</h4>
       </div>
       <div class="im">
-        <img src="sara.jfif" alt="" ></img>
+        <img src="https://res.cloudinary.com/digpxlioq/image/upload/v1668843968/black%20adam/interstellar/mic_wmkomc_lf2wdo.jpg" alt="" ></img>
         <h4>Michael Caine</h4>
     </div>
     </div>

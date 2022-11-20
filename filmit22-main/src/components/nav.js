@@ -35,17 +35,17 @@ const Navbar = () =>{
         </Link>
         
         <div class="navbar">
-            <a href="#home" class="nav-link nav-active">
+            <Link to={'/'} class="nav-link nav-active">
                 <i class='bx bx-home' ></i>
                 <HomeIcon fontSize="medium"/>
                 <span class="nav-link-title">Home</span>
-            </a>
-            <a href="#popular" class="nav-link">
+            </Link>
+            <a href="#slider" class="nav-link">
                 <i class='bx bxs-hot'></i>
                 <WhatshotIcon fontSize="medium"/>
                 <span class="nav-link-title">Trending</span>
             </a>
-            <a href="#home" class="nav-link">
+            <a href="#popular" class="nav-link">
                 <i class='bx bx-movie-play'></i>
                 <MovieIcon fontSize="medium"/>
                 <span class="nav-link-title">Movies</span>

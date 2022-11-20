@@ -10,7 +10,7 @@ const Bra=()=>{
     </div>
     
     <video width="900" height="450" controls autoplay muted>
-        <source src={require("../images/Black Adam – Official Trailer 1.mp4")}type="video/mp4"/>
+        <source src="https://res.cloudinary.com/digpxlioq/video/upload/v1668938127/vid/Y2Mate.is_-_Breaking_Bad_Trailer_First_Season_-HhesaQXLuRY-720p-1654901716185_zluzsa.mp4 "type="video/mp4"/>
       </video> 
     <div class="syno">
         <div class="syn">
@@ -26,19 +26,19 @@ const Bra=()=>{
             <div class="tit">Top Cast</div>
             <div class="wrap">
                 <div class="im">
-                    <img src="./cra.jpg"/>
+                    <img src="https://res.cloudinary.com/digpxlioq/image/upload/v1668844002/black%20adam/brba/cra_ui6whh_ksffe6.jpg"/>
                     <h4>Bryan Cranston</h4>
               </div>
               <div class="im">
-                <img src="./aar.jpg" alt="" />
+                <img src="https://res.cloudinary.com/digpxlioq/image/upload/v1668844002/black%20adam/brba/aar_yfttg6_qe4svj.jpg" alt="" />
                 <h4>Aaron Paul</h4>
           </div>
           <div class="im">
-            <img src="./dea.jpg" alt="" />
+            <img src="https://res.cloudinary.com/digpxlioq/image/upload/v1668844002/black%20adam/brba/dea_fghwsc_igctym.jpg" alt="" />
             <h4>Dean Norris</h4>
         </div>
         <div class="im">
-          <img src="./gus.jpg" alt="" />
+          <img src="https://res.cloudinary.com/digpxlioq/image/upload/v1668844002/black%20adam/brba/gus_coa6vg_fso1eo.jpg" alt="" />
           <h4>Giancarlo Esposito</h4>
       </div>
       </div>

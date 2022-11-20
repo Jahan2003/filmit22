@@ -11,7 +11,7 @@ const Nwh=()=>{
    </div>
   
    <video width="900" height="450" controls autoplay muted>
-      <source src="../website/Black Adam – Official Trailer 1.mp4" type="video/mp4"></source>
+      <source src="https://res.cloudinary.com/digpxlioq/video/upload/v1668938136/vid/Y2Mate.is_-_SPIDER-MAN_NO_WAY_HOME_-_Official_Trailer-ZYzbalQ6Lg8-1080p-1654901529159_zyjlw6.mp4" type="video/mp4"></source>
     </video> 
     <div class="syno">
       <div class="syn">
@@ -27,19 +27,19 @@ const Nwh=()=>{
           <div class="tit">Top Cast</div>
           <div class="wrap">
               <div class="im">
-                  <img src="dwn.jfif" alt="" ></img>
+                  <img src="https://res.cloudinary.com/digpxlioq/image/upload/v1668843976/black%20adam/no%20way%20home/tom_bvtzqm_m4jzdt.jpg" alt="" ></img>
                   <h4>Tom Holland</h4>
             </div>
             <div class="im">
-              <img src="superman.jfif" alt="" ></img>
+              <img src="https://res.cloudinary.com/digpxlioq/image/upload/v1668843976/black%20adam/no%20way%20home/zen_sbv5y3_p8ovsr.jpg" alt="" ></img>
               <h4>Zendaya</h4>
         </div>
         <div class="im">
-          <img src="noah.jfif" alt="" ></img>
+          <img src="https://res.cloudinary.com/digpxlioq/image/upload/v1668843976/black%20adam/no%20way%20home/ben_eektkx_sfsfuw.jpg" alt="" ></img>
           <h4>Benedict Cumberbatch</h4>
       </div>
       <div class="im">
-        <img src="sara.jfif" alt="" ></img>
+        <img src="https://res.cloudinary.com/digpxlioq/image/upload/v1668843976/black%20adam/no%20way%20home/wi_hbnawf_bur0fu.jpg" alt="" ></img>
         <h4>Willem Dafoe</h4>
     </div>
     </div>

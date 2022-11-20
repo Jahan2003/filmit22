@@ -11,7 +11,7 @@ const Shaw=()=>{
    </div>
   
    <video width="900" height="450" controls autoplay muted>
-      <source src="../website/Black Adam – Official Trailer 1.mp4" type="video/mp4"></source>
+      <source src="https://res.cloudinary.com/digpxlioq/video/upload/v1668938128/vid/Y2Mate.is_-_The_Shawshank_Redemption_1994_Official_Trailer_1_-_Morgan_Freeman_Movie_HD-NmzuHjWmXOc-720p-1659042330805_xpwz9k.mp4" type="video/mp4"></source>
     </video> 
     <div class="syno">
       <div class="syn">
@@ -27,19 +27,19 @@ const Shaw=()=>{
           <div class="tit">Top Cast</div>
           <div class="wrap">
               <div class="im">
-                  <img src="dwn.jfif" alt="" ></img>
+                  <img src="https://res.cloudinary.com/digpxlioq/image/upload/v1668843949/black%20adam/shawshank/rob_ugxjk1_ne0vjq.jpg" alt="" ></img>
                   <h4>Tim Robbins</h4>
             </div>
             <div class="im">
-              <img src="superman.jfif" alt="" ></img>
+              <img src="https://res.cloudinary.com/digpxlioq/image/upload/v1668843949/black%20adam/shawshank/mor_mtmtq3_qidxkv.jpg" alt="" ></img>
               <h4>Morgan Freeman</h4>
         </div>
         <div class="im">
-          <img src="noah.jfif" alt="" ></img>
+          <img src="https://res.cloudinary.com/digpxlioq/image/upload/v1668843949/black%20adam/shawshank/bob_owqrd7_ccdkyp.jpg" alt="" ></img>
           <h4>Bob Gunton</h4>
       </div>
       <div class="im">
-        <img src="sara.jfif" alt="" ></img>
+        <img src="https://res.cloudinary.com/digpxlioq/image/upload/v1668843949/black%20adam/shawshank/will_lkrrj8_m9dovs.jpg" alt="" ></img>
         <h4>William Sadler</h4>
     </div>
     </div>

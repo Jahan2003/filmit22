@@ -28,19 +28,19 @@
             <div class="tit">Top Cast</div>
             <div class="wrap">
                 <div class="im">
-                    <img src="dwn.jfif" alt="" ></img>
+                    <img src="https://res.cloudinary.com/digpxlioq/image/upload/v1668843924/black%20adam/black%20adam/dwn_zrxdpt_eqvtqg.jpg" alt="" ></img>
                     <h4>Dwayne Johnson</h4>
               </div>
               <div class="im">
-                <img src="superman.jfif" alt="" ></img>
+                <img src="https://res.cloudinary.com/digpxlioq/image/upload/v1668843924/black%20adam/black%20adam/superman_e3fgcp_uxojip.jpg" alt="" ></img>
                 <h4>Henry Cavil</h4>
           </div>
           <div class="im">
-            <img src="noah.jfif" alt="" ></img>
+            <img src="https://res.cloudinary.com/digpxlioq/image/upload/v1668843924/black%20adam/black%20adam/noah_iygakc_ymfzrn.jpg" alt="" ></img>
             <h4>Noah Centineo</h4>
         </div>
         <div class="im">
-          <img src="sara.jfif" alt="" ></img>
+          <img src="https://res.cloudinary.com/digpxlioq/image/upload/v1668843924/black%20adam/black%20adam/sara_ghkmo3_tfysab.jpg" alt="" ></img>
           <h4>Sarah Shahi</h4>
       </div>
       </div>
