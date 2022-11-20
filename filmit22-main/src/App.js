@@ -1,4 +1,5 @@
 import './App.css';
+// import './searchp.css';
 import Movies from './components/movie';
 import Bra from './pages/bra'
 import In from './pages/in'
@@ -11,6 +12,7 @@ import Mat from './pages/mat'
 import Nwh from './pages/nwh'
 import Off from './pages/off'
 import Shaw from './pages/shaw'
+import Search from './pages/searchp';
 function App() {
   return (
     <div className="App">
@@ -26,6 +28,8 @@ function App() {
    <Route path='/nwh' element={<Nwh/>}/>
    <Route path='/off' element={<Off/>}/>
    <Route path='/shaw' element={<Shaw/>}/>
+   <Route path='/searchp' element={<Search/>}/>
+   
 </Routes>
       
     </div>

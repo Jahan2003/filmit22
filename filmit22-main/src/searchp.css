@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+@import 'animate.css';
+*{
+    font-family: 'Poppins', sans-serif;
+    margin:0;
+    padding:0;
+    scroll-behavior:smooth;
+    box-sizing:border-box;
+    scroll-padding-top:2rem;
+  
+  }
+  :root{
+  --main-color:#ffb43a;
+  --hover-color: hsl(36,94%,57%);
+  --body-color:#1e1e2a;
+  --container-color:#2d2e37;
+  --text-color: #fcfeff;
+  }
+  body{
+    background: var(--body-color);
+    color: var(--text-color);
+    width:auto;
+  }
+  .searchb{
+    margin-top:7%;
+  }
+  .search-box{
+    width:80%;
+    align-items: center;
+    column-gap: 0.7rem;
+    padding: 8px 15px;
+    background: var(--container-color);
+    border-radius: 4rem;
+    color:white;
+    margin-left:10.9%;
+  }
+
+  .search-box:hover #search-input{
+    color:var(--hover-color);
+  }
+  #search-input{
+    width: 100%;
+    border: none;
+    outline:none;
+    color: var(--text-color);
+    background: transparent;
+    font-size: 0.938rem;
+  
+  }
+  .movie-box{
+  padding: 10px;
+  position: relative;
+  width: 300px;
+  height: 380px;
+  overflow: hidden;
+  margin: 5px;
+  animation-duration: 2s;
+  animation-name: fadeIn;
+  }
+  .movie-box-img {
+    width:100%;
+    height:100%;
+    object-fit: cover;
+    border-radius: 1em;
+  }
+  .movie-box .box-text{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction :column;
+    justify-content:flex-end;
+    padding: 14px;
+    overflow: hidden;
+  }
+  .movie-title{
+    font-size:1.1rem;
+    font-weight: 500;
+    
+  }
+  .movie-type{
+    font-size: 0.938rem;
+  }
+.movie-box:hover{
+    transform:scale(1.1);
+    transition-duration: 0.5s;
+}
+ul{
+  margin:0;
+  list-style-type: none;
+}
+li{
+  float: left;
+}
+.searchres{
+  margin:10px;
+  margin-left:10%;
+}

@@ -6,6 +6,7 @@ import FavoriteIcon from '@mui/icons-material/Favorite';
 import AccountCircleIcon from '@mui/icons-material/AccountCircle';
 import SearchIcon from '@mui/icons-material/Search';
 import IconButton from '@mui/material/IconButton';
+import { Link } from 'react-router-dom';
 
 const Navbar = () =>{
        return(
@@ -22,7 +23,8 @@ const Navbar = () =>{
             </a>
             
         </div>
-        <div class="search-box">
+        <Link to={'/searchp'}>
+        <div class="search-bo">
             {/* <button name="" id="search-input" >Search</button> */}
             <IconButton aria-label="search">
           <SearchIcon fontSize="medium"/>
@@ -30,6 +32,8 @@ const Navbar = () =>{
             <span id="search">Search</span>
             <i class='bx bx-search-alt-2'></i>
         </div>
+        </Link>
+        
         <div class="navbar">
             <a href="#home" class="nav-link nav-active">
                 <i class='bx bx-home' ></i>

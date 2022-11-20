@@ -1,6 +1,12 @@
 import React from "react"
 import Navbar from "../components/nav"
+import { useState } from "react";
 const Mat=()=>{
+    
+        function review(){
+         
+          
+ }
     return(
       <>
       <Navbar/>
@@ -68,6 +74,8 @@ const Mat=()=>{
               </div>
               
           
+          <div class="h"></div>
+          <div class="cont"></div>
          
           
       </div>
@@ -88,7 +96,7 @@ const Mat=()=>{
       </div>
           <center>
   
-              <button onclick="review()">Submit</button>
+              <button onClick={review}>Submit</button>
           </center>
           </div>
       
