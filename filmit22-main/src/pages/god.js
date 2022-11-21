@@ -11,7 +11,7 @@ const God=()=>{
    </div>
   
    <video width="900" height="450" controls autoplay muted>
-      <source src="../website/Black Adam – Official Trailer 1.mp4" type="video/mp4"></source>
+      <source src="https://res.cloudinary.com/digpxlioq/video/upload/v1668938132/vid/Y2Mate.is_-_THE_GODFATHER_50th_Anniversary_Trailer_Paramount_Pictures-UaVTIH8mujA-1080p-1659042681078_kx2yzu.mp4" type="video/mp4"></source>
     </video> 
     <div class="syno">
       <div class="syn">

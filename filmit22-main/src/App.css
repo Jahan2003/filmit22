@@ -224,6 +224,11 @@ video{
  margin-bottom:-10px;
  border-radius:5px;
 }
+iframe{
+  margin: 50px 70px 50px 110px;
+  margin-bottom:-10px;
+  border-radius:5px;
+ }
 .head-title {
 font-size: 1.8rem;
 }

@@ -9,9 +9,10 @@
         <span id="cer">PG-13</span>
      </div>
     
-     <video width="900" height="450" controls autoplay muted>
-        <source src="../website/Black Adam – Official Trailer 1.mp4" type="video/mp4"></source>
-      </video> 
+     {/* <video width="900" height="450" controls autoplay muted>
+        <source src="./" type="video/mp4"></source>
+      </video>  */}
+      <iframe width="900" height="450" src="https://www.youtube.com/embed/mkomfZHG5q4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
       <div class="syno">
         <div class="syn">
             <div class="head">
