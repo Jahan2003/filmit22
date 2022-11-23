@@ -6,7 +6,8 @@ const Movies = () =>{
     return( 
         <>
         <Navbar/>
-        <Slider/>
+        <section id="trending">
+        <Slider/></section>
     <section class="popular container" id="popular">
 
     <div class="heading">
@@ -125,8 +126,9 @@ const Movies = () =>{
            
 
        </div>
-
-       <div class="heading" id="srs">
+</section>
+<section id="srs" class="popular container">
+       <div class="heading">
         <h2 class="heading-tit1e">Series and Tv Shows</h2>
     </div>
     <div class="swipe">

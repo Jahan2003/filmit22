@@ -1,5 +1,6 @@
 import React from "react"
 import Navbar from "../components/nav"
+import Review from "../components/review"
 const Nwh=()=>{
     return( 
       <>
@@ -10,9 +11,7 @@ const Nwh=()=>{
   <span id="cer">PG-13</span>
    </div>
   
-   <video width="900" height="450" controls autoplay muted>
-      <source src="https://res.cloudinary.com/digpxlioq/video/upload/v1668938136/vid/Y2Mate.is_-_SPIDER-MAN_NO_WAY_HOME_-_Official_Trailer-ZYzbalQ6Lg8-1080p-1654901529159_zyjlw6.mp4" type="video/mp4"></source>
-    </video> 
+   <iframe width="1000" height="500" src="https://www.youtube.com/embed/JfVOs4VSpmA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     <div class="syno">
       <div class="syn">
           <div class="head">
@@ -75,23 +74,7 @@ const Nwh=()=>{
       </div>
       
       
-      <div class="headi">
-          <div class="h">
-              Your Review:
-          </div>
-              <div id="headline">
-                  <textarea id="text1" placeholder="Write a headline of your review" rows="1" required></textarea>
-              </div>
-              <div id="conte">
-                  <textarea id="text2" placeholder="Write your review (Minimum 100 characters)" rows="5" required minlength="1"></textarea>
-              
-          </div>
-          
-      </div>
-          <center>
-  
-              <button onclick="review()">Submit</button>
-          </center>
+      <Review/>
           </div>
       
       

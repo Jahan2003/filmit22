@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
-
+@import 'animate.css';
 *{
     font-family: 'Poppins', sans-serif;
     margin:0;
@@ -468,4 +468,44 @@ li{
   animation-duration: 2s;
   animation-name: fadeIn;
   }
- 
+  #srs{
+    margin-top:-30px;
+  }
+  #star{
+    font-size:1.4rem;
+    font-weight:500;
+  }
+  input[type="number"]{
+    padding:5px;
+    margin-bottom:10px;
+    font-size:1rem;
+    font-weight:500;
+    color:#ffb43a;
+  }
+  .mve{
+    margin-top:90px;
+    display:flex;
+    margin-left:90px;
+    margin-bottom:-30px;
+    padding-bottom:25px;
+    border-bottom:1px solid var(--hover-color);
+    
+  }
+  .box-tet{
+    margin-left:10px
+  }
+  .goto{
+  color:rgb(249, 148, 16);
+  }
+  .goto:hover{
+    cursor:pointer;
+    text-decoration: underline;
+  }
+  .ti{
+    margin-top:100px;
+    Margin-left:85px;
+    background-color: #2d2e37;
+    width:90%;
+    padding:5px 20px;
+    margin-bottom:-30px
+  }

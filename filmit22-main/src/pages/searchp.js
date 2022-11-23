@@ -13,7 +13,7 @@ function Search() {
 
   return (
     <>
-   
+   <Navbar/>
     <div className="searchb">
       <div className="search-box">
         <input type="text"

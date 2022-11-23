@@ -1,12 +1,7 @@
 import React from "react"
 import Navbar from "../components/nav"
-import { useState } from "react";
+import Review from "../components/review"
 const Mat=()=>{
-    
-        function review(){
-         
-          
- }
     return(
       <>
       <Navbar/>
@@ -16,9 +11,7 @@ const Mat=()=>{
   <span id="cer">R-Rated</span>
    </div>
   
-   <video width="900" height="450" controls autoplay muted>
-      <source src="https://res.cloudinary.com/digpxlioq/video/upload/v1668938130/vid/Y2Mate.is_-_Matrix_Trailer_HD_1999_-m8e-FF8MsqU-720p-1654805533083_xa9voz.mp4" type="video/mp4"></source>
-    </video> 
+   <iframe width="1000" height="500" src="https://www.youtube.com/embed/nUEQNVV3Gfs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     <div class="syno">
       <div class="syn">
           <div class="head">
@@ -81,23 +74,7 @@ const Mat=()=>{
       </div>
       
       
-      <div class="headi">
-          <div class="h">
-              Your Review:
-          </div>
-              <div id="headline">
-                  <textarea id="text1" placeholder="Write a headline of your review" rows="1" required></textarea>
-              </div>
-              <div id="conte">
-                  <textarea id="text2" placeholder="Write your review (Minimum 100 characters)" rows="5" required minlength="1"></textarea>
-              
-          </div>
-          
-      </div>
-          <center>
-  
-              <button onClick={review}>Submit</button>
-          </center>
+     <Review/>
           </div>
       
       

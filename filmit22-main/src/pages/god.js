@@ -1,5 +1,6 @@
 import React from "react"
 import Navbar from "../components/nav"
+import Review from "../components/review"
 const God=()=>{
     return(
       <>
@@ -10,9 +11,7 @@ const God=()=>{
       <span id="cer">R-rated</span>
    </div>
   
-   <video width="900" height="450" controls autoplay muted>
-      <source src="https://res.cloudinary.com/digpxlioq/video/upload/v1668938132/vid/Y2Mate.is_-_THE_GODFATHER_50th_Anniversary_Trailer_Paramount_Pictures-UaVTIH8mujA-1080p-1659042681078_kx2yzu.mp4" type="video/mp4"></source>
-    </video> 
+   <iframe width="1000" height="500" src="https://www.youtube.com/embed/UaVTIH8mujA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     <div class="syno">
       <div class="syn">
           <div class="head">
@@ -75,23 +74,7 @@ const God=()=>{
       </div>
       
       
-      <div class="headi">
-          <div class="h">
-              Your Review:
-          </div>
-              <div id="headline">
-                  <textarea id="text1" placeholder="Write a headline of your review" rows="1" required></textarea>
-              </div>
-              <div id="conte">
-                  <textarea id="text2" placeholder="Write your review (Minimum 100 characters)" rows="5" required minlength="1"></textarea>
-              
-          </div>
-          
-      </div>
-          <center>
-  
-              <button onclick="review()">Submit</button>
-          </center>
+   <Review/>
           </div>
       
       

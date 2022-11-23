@@ -53,7 +53,7 @@ const Slider = () =>{
         
         setInterval(function() {
           nextSlide()
-        }, 5000);
+        }, 6000);
         
         };
         

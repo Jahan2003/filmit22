@@ -1,8 +1,10 @@
    import Navbar from "../components/nav"
+   import Review from "../components/review";
    const Bc=()=>{
-    return(
+   return(
         <>
         <Navbar/>
+
 <div class="ma">
     <div class="bc">
         <h2 class="head-title">Black Adam (2022)</h2>
@@ -12,7 +14,7 @@
      {/* <video width="900" height="450" controls autoplay muted>
         <source src="./" type="video/mp4"></source>
       </video>  */}
-      <iframe width="900" height="450" src="https://www.youtube.com/embed/mkomfZHG5q4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <iframe width="1000" height="500" src="https://www.youtube.com/embed/mkomfZHG5q4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" ></iframe>
       <div class="syno">
         <div class="syn">
             <div class="head">
@@ -77,25 +79,9 @@
            
             
         </div>
+             <Review/>
         
-        
-        <div class="headi">
-            <div class="h">
-                Your Review:
-            </div>
-                <div id="headline">
-                    <textarea id="text1" placeholder="Write a headline of your review" rows="1" required></textarea>
-                </div>
-                <div id="conte">
-                    <textarea id="text2" placeholder="Write your review (Minimum 100 characters)" rows="5" required minlength="1"></textarea>
-                
-            </div>
-            
-        </div>
-            <center>
-    
-                <button onclick="review()">Submit</button>
-            </center>
+
             </div>
         
         

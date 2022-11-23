@@ -1,5 +1,6 @@
 import React from "react"
 import Navbar from "../components/nav"
+import Review from "../components/review"
 const Fc=()=>{
   return(
     <>
@@ -71,23 +72,7 @@ const Fc=()=>{
         </div>
         
         
-        <div class="headi">
-            <div class="h">
-                Your Review:
-            </div>
-                <div id="headline">
-                    <textarea id="text1" placeholder="Write a headline of your review" rows="1" required></textarea>
-                </div>
-                <div id="conte">
-                    <textarea id="text2" placeholder="Write your review (Minimum 100 characters)" rows="5" required minlength="1"></textarea>
-                
-            </div>
-            
-        </div>
-            <center>
-    
-                <button onclick="review()">Submit</button>
-            </center>
+        <Review/>
             </div>
         
         
