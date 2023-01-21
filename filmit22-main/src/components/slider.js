@@ -1,3 +1,5 @@
+import ArrowBackIosNewIcon from '@mui/icons-material/ArrowBackIosNew';
+import ArrowForwardIosIcon from '@mui/icons-material/ArrowForwardIos';
 const Slider = () =>{
     var responsiveSlider = function() {
 
@@ -53,7 +55,7 @@ const Slider = () =>{
         
         setInterval(function() {
           nextSlide()
-        }, 6000);
+        }, 4000);
         
         };
         
@@ -70,8 +72,8 @@ const Slider = () =>{
                 <li><img src="https://res.cloudinary.com/digpxlioq/image/upload/v1668844098/black%20adam/sliding%20posters%20idk%20bro/open_shdnz2_i3v8mz.jpg" alt=""></img></li>
                 <li><a href="https://youtu.be/BbXJ3_AQE_o"><img src="https://res.cloudinary.com/digpxlioq/image/upload/v1668844098/black%20adam/sliding%20posters%20idk%20bro/spd_rtbaxe_gfseqv.jpg" alt=""></img></a></li>
               </ul>
-              <a id="prev" href="#">&#8810;</a>
-              <a id="next" href="#">&#8811;</a>
+              <a id="prev" href="#"><ArrowBackIosNewIcon fontSize="large"/></a>
+              <a id="next" href="#"><ArrowForwardIosIcon fontSize="large"/></a>
         </div>
     )
 }

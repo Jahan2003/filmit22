@@ -1,9 +1,11 @@
    import Navbar from "../components/nav"
    import Review from "../components/review";
+   import SSide from "../components/sside";
    const Bc=()=>{
    return(
         <>
         <Navbar/>
+        <SSide/>
 
 <div class="ma">
     <div class="bc">

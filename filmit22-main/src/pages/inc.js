@@ -1,10 +1,12 @@
 import React from "react"
 import Navbar from "../components/nav"
 import Review from "../components/review"
+import SSide from "../components/sside"
 const Inc=()=>{
   return(
     <>
     <Navbar/>
+    <SSide/>
     <div class="ma">
 <div class="bc">
 <h2 class="head-title">Inception(2010)</h2>

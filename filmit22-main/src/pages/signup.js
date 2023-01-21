@@ -3,6 +3,10 @@ import React from "react";
 import { Link } from "react-router-dom";
 const Signup=()=>{
     return (
+        <>
+        <div id="lo">
+        Film<span>It</span>
+        </div>
     <div className="box3">
         <div className="box2">
             <h1>Sign Up</h1>
@@ -22,6 +26,7 @@ const Signup=()=>{
             </form>
         </div>
     </div>
+    </>
     )   
 }
 export default Signup

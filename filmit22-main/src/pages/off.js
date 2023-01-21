@@ -1,10 +1,12 @@
 import React from "react";
 import Navbar from "../components/nav"
 import Review from "../components/review";
+import SSide from "../components/sside";
 const Off=()=>{
     return (
 <>
       <Navbar/>
+      <SSide/>
       <div class="ma">
   <div class="bc">
   <h2 class="head-title">The Office(2005–2013)</h2>

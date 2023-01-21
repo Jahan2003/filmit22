@@ -7,28 +7,30 @@ function List(props) {
     const filteredData = data.filter((x) => {
         //if no input the return the original
         if (props.input === '') {
-        return x;
+            // document.getElementById('aaa').scrollTo({left:0,behavior:'smooth'});
+            return x;
         }
         //return the item which contains the user input
         else {
+            document.getElementById('aaa').scrollTo({left:0,behavior:'smooth'});
             return x.text.toLowerCase().includes(props.input)
         }
     })
     return (
-        <ul>
+        <div className='searchel'>
             {filteredData.map((item) => (
                 <Link to={item.link}>
-                <li><div class="movie-box">
-                <img src={item.imageUrl} alt="" class="movie-box-img"/>
+                <div class="movie-box">
+                <img src={item.imageUrl} alt="" class="movie-box-img" />
                     <div class="box-text">
                         <h2 class="movie-tit1e">{item.text}</h2>
                                 <span class="play-btn">⭐ {item.r}</span>
                             
                     
             </div>
-        </div></li></Link>
+        </div></Link>
             ))}
-        </ul>
+        </div>
     )
 }
 

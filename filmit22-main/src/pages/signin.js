@@ -5,6 +5,11 @@ var i=1;
 const Signin=()=>{
     
     return (
+        <>
+        <div id="lo">
+        Film<span>It</span>
+        </div>
+        
         <div className="box">
         <div className="box2">
             <h1>Sign In</h1>
@@ -21,6 +26,7 @@ const Signin=()=>{
             </form>
         </div>
     </div>
+    </>
     )
 }
 export default Signin

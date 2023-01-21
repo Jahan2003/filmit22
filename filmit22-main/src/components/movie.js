@@ -1,17 +1,19 @@
 
 import { Link } from "react-router-dom";
 import Navbar from "./nav";
+import SSide from "./sside1";
 import Slider from "./slider";
 const Movies = () =>{
     return( 
-        <>
+        <div className="moviep">
         <Navbar/>
+        <SSide/>
         <section id="trending">
         <Slider/></section>
     <section class="popular container" id="popular">
 
     <div class="heading">
-        <h2 class="heading-tit1e">Popu1ar Movies</h2>
+        <h2 class="heading-tit1e">Popular Movies</h2>
     </div>
     
     
@@ -245,7 +247,7 @@ const Movies = () =>{
 
     
 </section>
-</>
+</div>
 )
 }
 export default Movies;

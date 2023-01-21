@@ -1,7 +1,8 @@
 import { React, useState } from "react";
 import List from "../List";
 import Navbar from "../components/nav";
-import { Routes,Route } from "react-router-dom";
+import '../searchp.css';
+import SSide from "../components/sside";
 
 function Search() {
   const [inputText, setInputText] = useState("");
@@ -14,6 +15,7 @@ function Search() {
   return (
     <>
    <Navbar/>
+   <SSide/>
     <div className="searchb">
       <div className="search-box">
         <input type="text"
@@ -21,7 +23,7 @@ function Search() {
           onChange={inputHandler}
           id="search-input" />
       </div>
-      <div class="searchres">
+      <div class="searchres" id="aaa">
         <List input={inputText} />
       </div>
     </div>

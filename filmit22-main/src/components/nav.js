@@ -21,7 +21,7 @@ const Navbar = () =>{
             
         </a>
         <div class="login">
-        <Link to="/signup">
+        <Link to="/signin">
             <a href="signin.html" class="iclog">
                 <AccountCircleIcon fontSize="medium"/>
                 <i class='bx bxs-user-circle'></i>
@@ -35,7 +35,6 @@ const Navbar = () =>{
         </div>
         <Link to={'/searchp'}>
         <div class="search-bo">
-            {/* <button name="" id="search-input" >Search</button> */}
             <IconButton aria-label="search">
           <SearchIcon fontSize="medium"/>
         </IconButton>
@@ -44,36 +43,9 @@ const Navbar = () =>{
         </div>
         </Link>
         
-        <div class="navbar">
-            <Link to={'/movie'} class="nav-link nav-active">
-                <i class='bx bx-home' ></i>
-                <HomeIcon fontSize="medium"/>
-                <span class="nav-link-title">Home</span>
-            </Link>
-            <a href="#trending" class="nav-link">
-                <i class='bx bxs-hot'></i>
-                <WhatshotIcon fontSize="medium"/>
-                <span class="nav-link-title">Trending</span>
-            </a>
-            <a href="#popular" class="nav-link">
-                <i class='bx bx-movie-play'></i>
-                <MovieIcon fontSize="medium"/>
-                <span class="nav-link-title">Movies</span>
-            </a>
-            <a href="#srs" class="nav-link">
-                <i class='bx bx-tv'></i>
-                <LiveTvIcon  fontSize="medium"/>
-                <span class="nav-link-title">Series</span>
-            </a>
-            <Link to="/news">
-            <a href="" class="nav-link">
-                <i class='bx bx-heart' ></i>
-                <NewspaperIcon fontSize="medium"/>
-                <span class="nav-link-title">News</span>
-            </a>
-            </Link>
+
             
-        </div>
+        
 
     </div> 
     

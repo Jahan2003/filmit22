@@ -1,10 +1,12 @@
 import React from "react"
 import Navbar from "../components/nav"
+import SSide from "../components/sside"
 import Review from "../components/review"
 const God=()=>{
     return(
       <>
       <Navbar/>
+      <SSide/>
       <div class="ma">
   <div class="bc">
       <h2 class="head-title">The Godfather(1972)</h2>

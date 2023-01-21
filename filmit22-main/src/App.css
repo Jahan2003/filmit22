@@ -305,6 +305,9 @@ h4{
   font-size:1.1rem;
   font-weight:lighter;
 }
+.cont{
+  margin-bottom:30px;
+}
 #headline{
   margin-top:15px;
   box-sizing:border-box;
@@ -379,7 +382,7 @@ slider */
   padding: 0;
   margin: 0;
 
-  transition: all 750ms ease;
+  transition: all 1s ease;
   left: 0;
 }
 #slider ul li {
@@ -408,6 +411,9 @@ slider */
   transform: translateY(-50%);
   transition: all 150ms ease;
 }
+#prev, #next{
+  padding-top:7px;
+}
 #slider #prev:hover, #slider #next:hover {
   background-color: rgba(0, 0, 0, 0.5);
   text-shadow: 0;
@@ -422,42 +428,6 @@ slider */
 button{
  margin-top:30px;
 }
-li{
-  float: left;
-  list-style-type: none;
-}
-.searchres{
-  margin:10px;
-  margin-left:10%;
-}
-.searchb{
-  margin-top:150px;
-}
-.searchb{
-  margin-top:7%;
-}
-.search-box{
-  width:80%;
-  align-items: center;
-  column-gap: 0.7rem;
-  padding: 8px 15px;
-  background: var(--container-color);
-  border-radius: 4rem;
-  color:white;
-  margin-left:10.9%;
-}
-.search-box:hover #search-input{
-  color:var(--hover-color);
-}
-#search-input{
-  width: 100%;
-  border: none;
-  outline:none;
-  color: var(--text-color);
-  background: transparent;
-  font-size: 0.938rem;
-
-}
 .movie-box{
   padding: 10px;
   position: relative;
@@ -465,6 +435,8 @@ li{
   height: 380px;
   overflow: hidden;
   margin: 5px;
+  transform: scale(1);
+  transition-duration: 1s;
   animation-duration: 2s;
   animation-name: fadeIn;
   }
@@ -489,6 +461,8 @@ li{
     margin-bottom:-30px;
     padding-bottom:25px;
     border-bottom:1px solid var(--hover-color);
+    animation-duration: 2s;
+    animation-name: fadeIn;
     
   }
   .box-tet{
@@ -508,4 +482,11 @@ li{
     width:90%;
     padding:5px 20px;
     margin-bottom:-30px
+  }
+  li .h,li .cont{
+    width:100%;
+  
+  }
+  li{
+    list-style-type: none;
   }

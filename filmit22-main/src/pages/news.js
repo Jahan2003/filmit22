@@ -1,9 +1,11 @@
 import Navbar from "../components/nav"
+import SSide from "../components/sside"
 
 const News=()=>{
     return(
         <>
     <Navbar/>
+    <SSide/>
     <h2 class="ti">Latest News</h2>
     <div class="mve">
                     <img src="https://res.cloudinary.com/digpxlioq/image/upload/v1669162520/black%20adam/MCDAVAG_EC011_hv9ckk.webp" alt="" class="mve-box-img" height="180" width="300"></img>
